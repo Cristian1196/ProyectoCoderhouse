@@ -11,16 +11,17 @@ ul {
 }
 
 /*header styles*/
-.grid {
-  display: grid;
-  grid-template-columns: 25% 50% 25%;
-  background-color: lawngreen;
+.grod {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(241, 231, 231);
   text-align: center;
+  height: 200px;
 }
 .menuGrid {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  background-color: lawngreen;
+  background-color: rgb(214, 200, 200);
   text-align: center;
 }
 .medida-menu {
@@ -32,7 +33,7 @@ ul {
   justify-content: center;
 }
 #logoid {
-  width: 50%;
+  width: 70%;
 }
 
 .navbar-list {
@@ -40,7 +41,8 @@ ul {
   justify-content: space-evenly;
   padding: 13px;
   border: 1px solid rgb(129, 129, 129);
-  background-color: rgb(149, 233, 149);
+  background-color:rgb(235, 217, 217);
+  margin-bottom: 0px;
 }
 
 li a {
@@ -51,26 +53,45 @@ li a {
 }
 
 li a:hover {
+   color:inherit;
   background-color: rgb(190, 153, 153);
+  text-decoration: none;
+}
+.fondo-titulo{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
 }
 
 a h1,
 h2 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-
-  text-decoration: none;
   color: rgb(31, 31, 31);
 }
+
+a h1:hover{
+    text-decoration: none;
+}
+  
+.title-class{
+    margin-right: 100px;
+}
+
 .title-class a {
   display: flex;
   flex-direction: column;
   padding-top: 35px;
-  text-decoration: none;
+  
+}
+
+.title-class a:hover{
+    text-decoration: none;
 }
 
 .form-class {
   padding-top: 30px;
+  margin-right: 30px;
 }
 
 .form-class input[type="text"] {
@@ -231,4 +252,7 @@ input[type="submit"] {
 }
 .fotos {
   grid-area: fotos;
+}
+.tamaño{
+    width: 25%;
 }

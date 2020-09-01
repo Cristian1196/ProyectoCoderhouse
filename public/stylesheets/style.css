@@ -2,12 +2,16 @@ body {
   text-decoration: none;
 }
 .img-size {
-  width: 70%;
+  width: 50%;
 }
-
+.padding{
+    padding-left: 4%;
+    padding-right: 4%;
+}
 .h1-center {
   text-align: left;
   background-color: rgb(240, 240, 199);
+  margin-left: 4%;
 }
 .color-colum {
   background-color: rgb(240, 240, 199);
