@@ -1,0 +1,164 @@
+body {
+  text-decoration: none;
+}
+.img-size {
+  width: 70%;
+}
+
+.h1-center {
+  text-align: left;
+  background-color: rgb(240, 240, 199);
+}
+.color-colum {
+  background-color: rgb(240, 240, 199);
+}
+
+.text {
+  text-align: center;
+}
+.padding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.padding form {
+  height: 200px;
+}
+.flecha {
+  justify-content: start;
+  height: 80px;
+}
+
+.div-flecha {
+  display: flex;
+  
+  justify-content: center;
+}
+
+.animacion-flecha {
+  animation-name: flecha;
+  animation-iteration-count: infinite;
+  animation-duration: 0.8s;
+  animation-delay: 0s;
+  
+}
+
+@keyframes flecha {
+  0%   {fill: red;}
+  25%  {fill: rgb(10, 10, 133);}
+  50%  {fill: red;}
+  100% {fill: rgb(10, 10, 133);}
+}
+.grid-flecha {
+  display: grid;
+  grid-template-columns: 25% 75%;
+ justify-items: start;
+}
+.caja {
+  justify-self: end;
+}
+.flecha__p--tamaño {
+  font-size: 35px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+}
+
+
+.animacion--p1 {
+  background-image: url("https://images.deliveryhero.io/image/pedidosya/profile-headers/shutterstock-288476828.jpg?quality=70&width=414");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+  margin-bottom: 0px;
+  color: black;
+  border: solid 2px red;
+  font-size: 50px;
+  text-align: center;
+  animation-name: p1;
+  animation-iteration-count: 5;
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+@keyframes p1 {
+  0%   { 
+    
+    color: red;
+    
+  }
+  25%  {
+    
+    color: rgb(10, 10, 133);
+    
+  }
+  50%  {
+    
+    
+    color: red;
+  }
+  100% {
+    
+   
+    color: rgb(10, 10, 133); 
+  }
+}
+.recomendada-border {
+  border: 2px solid red;
+
+}
+
+.recomendada-border p  {
+  margin-bottom: 0px;
+}
+.div-flecha .recomendada-border {
+  background-image: url(https://images.deliveryhero.io/image/pedidosya/profile-headers/shutterstock-288476828.jpg?quality=70&width=414);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+}
+.display-f {
+  display: none;
+}
+
+@media (max-width: 766px) {
+  div svg {
+    transform: rotate(90deg);
+    
+  }
+  #flecha {
+  margin-left: 50px;
+  }
+    .display-f {
+      display: flex;
+    }
+    
+    .flecha {
+      height: 50px;
+    }
+    .flecha__p--tamaño {
+      font-size: 20px;
+    }
+  }
+.fondo-cortina {
+  background-image: url("https://reverb-out.com/images/Cortina-Roja.jpg");
+  background-repeat: repeat;
+}
+
+@media (max-width: 320px) {
+  #flecha {
+    margin-left: 20px;
+  }
+  .flecha__p--tamaño {
+    font-size: 15px;
+  }
+  .animacion--p1 {
+    font-size: 25px;
+  }
+}
+
+.pelicula1__display {
+  justify-content: center;
+  display: flex;
+}
+
+
