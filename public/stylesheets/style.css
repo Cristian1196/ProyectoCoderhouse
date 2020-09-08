@@ -4,10 +4,7 @@ body {
 .img-size {
   width: 50%;
 }
-.padding{
-    padding-left: 4%;
-    padding-right: 4%;
-}
+
 .h1-center {
   text-align: left;
   background-color: rgb(240, 240, 199);
@@ -20,10 +17,7 @@ body {
 .text {
   text-align: center;
 }
-.padding {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+
 .padding form {
   height: 200px;
 }

@@ -33,7 +33,7 @@ ul {
   justify-content: center;
 }
 #logoid {
-  width: 70%;
+  width: 50%;
 }
 
 .navbar-list {
@@ -67,7 +67,7 @@ a h1,
 h2 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: rgb(31, 31, 31);
+  color: rgb(47, 92, 240);
 }
 
 a h1:hover{

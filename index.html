@@ -6,31 +6,30 @@
     <meta name="description" content="Único cine, de la ciudad balneria de ... , de la costa argentina. Los últimos estrenos, taquilleras y clásicos de época. Consultá la cartelera. El mejor servicio.">
     <meta name="keywords" content="cine, cines, costa, playa, películas, película, 3D, 2D, pochóclos, pipoca, gaseosas, bebidas, estreno, avengers, los vengadores, titanes del pacífico, se levanta el viento, marvel, superheroes, acción, terror, animación, pochoclera, negocio, café, género, clásicos, cinefilo, cinefilia, cineclub, vhs, movie, cinema, popcorn">
     <title>CineMar</title>
-    <link rel="stylesheet" href="public/stylesheets/style.css" />
-    <link rel="stylesheet" href="public/stylesheets/hdfooter.css" />
+    <link rel="stylesheet" href="public/stylesheets/estilo.css" />
     <link rel="stylesheet" href="public/stylesheets/bootstrap-grid.min.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
     />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 
   </head>
   <body>
     <header>
-      <div class="col-12 col-md-12 col-lg-12 grod ">
-        <div class="tamaño">
+      
+      <div class=" grod container-fluid">
+        <div class="flexible">
           <a href="/ProyectoReal/index.html">
-          <img id="logoid" src="public/multimedia/ola logo.png" alt="" />
+          <img id="logoid" src="public/multimedia/olalogo.png" alt="" />
         </a>
-        </div>
-
-        <div class="title-class">
+     
           <a href="index.html"
-            ><h1>Cine Mar</h1>
-            <br />
-            <h2>Las Olas y El Cine</h2>
+            ><h1 id="titulo-index">Cine Mar</h1>
           </a>
         </div>
         <div class="form-class">
@@ -40,7 +39,7 @@
           </form>
         </div>
       </div>
-      
+    
     <div class="medida-menu">
       
         <ul class="navbar-list">
@@ -64,121 +63,120 @@
       </div>
    
     </header>
-    <div class="container-fluid   fondo-cortina">
+  <div class="container-fluid   fondo-cortina">
       
-      <div class="div-flecha container-fuid">
+    <div class="div-flecha container-fuid">
         
-        <div class="row recomendada-border">
+      <div class="row recomendada-border">
           
         <div class=" col-12 col-xs-3 col-md-3 col-lg-3">
           <div class="container-fluid">
-          <div class="row" >
-        <div id="flecha" class=" col">
-        <svg class="flecha"  version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-   viewBox="0 0 512.171 512.171" style="enable-background:new 0 0 512.171 512.171;" xml:space="preserve">
-  <g>
-  <g>
-    <path class="animacion-flecha" d="M509.035,248.212l-213.504-212.8c-3.051-3.029-7.595-3.904-11.627-2.304c-3.989,1.664-6.571,5.547-6.571,9.856v117.333
-      H10.667C4.779,160.298,0,165.076,0,170.964v170.667c0,5.888,4.779,10.667,10.667,10.667h266.667v116.885
-      c0,4.309,2.603,8.192,6.592,9.856c1.323,0.555,2.709,0.811,4.075,0.811c2.773,0,5.504-1.088,7.552-3.115l213.504-213.419
-      c2.005-2.005,3.115-4.715,3.115-7.552C512.171,252.927,511.04,250.218,509.035,248.212z"/>
-  </g>
-  </g>
-  <g>
-  </g>
-  <g>
-  </g>
-  <g>
-  </g>
-  <g>
-  </g>
-  <g>
-  </g>
-  <g>
-  </g>
-  <g>
-  </g>
-  <g>
-  </g>
-  <g>
-  </g>
-  <g>
-  </g>
-  <g>
-  </g>
-  <g>
-  </g>
-  <g>
-  </g>
-  <g>
-  </g>
-  <g>
-  </g>
-  </svg> 
-   </div>
+            <div class="row" >
+              <div id="flecha" class=" col">
+                <svg class="flecha"  version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 512.171 512.171" style="enable-background:new 0 0 512.171 512.171;" xml:space="preserve">
+                  <g>
+                  <g>
+                    <path class="animacion-flecha" d="M509.035,248.212l-213.504-212.8c-3.051-3.029-7.595-3.904-11.627-2.304c-3.989,1.664-6.571,5.547-6.571,9.856v117.333
+                      H10.667C4.779,160.298,0,165.076,0,170.964v170.667c0,5.888,4.779,10.667,10.667,10.667h266.667v116.885
+                      c0,4.309,2.603,8.192,6.592,9.856c1.323,0.555,2.709,0.811,4.075,0.811c2.773,0,5.504-1.088,7.552-3.115l213.504-213.419
+                      c2.005-2.005,3.115-4.715,3.115-7.552C512.171,252.927,511.04,250.218,509.035,248.212z"/>
+                  </g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                </svg> 
+              </div>
   
 
-  <div class=" display-f col">
-    <div id="flecha">
-    <svg class="flecha"  version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-viewBox="0 0 512.171 512.171" style="enable-background:new 0 0 512.171 512.171;" xml:space="preserve">
-<g>
-<g>
-<path class="animacion-flecha" d="M509.035,248.212l-213.504-212.8c-3.051-3.029-7.595-3.904-11.627-2.304c-3.989,1.664-6.571,5.547-6.571,9.856v117.333
-  H10.667C4.779,160.298,0,165.076,0,170.964v170.667c0,5.888,4.779,10.667,10.667,10.667h266.667v116.885
-  c0,4.309,2.603,8.192,6.592,9.856c1.323,0.555,2.709,0.811,4.075,0.811c2.773,0,5.504-1.088,7.552-3.115l213.504-213.419
-  c2.005-2.005,3.115-4.715,3.115-7.552C512.171,252.927,511.04,250.218,509.035,248.212z"/>
-</g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-</svg> 
-</div>
-</div>
-</div>
-</div>
-</div>
+      <div class=" display-f col">
+        <div id="flecha">
+          <svg class="flecha"  version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          viewBox="0 0 512.171 512.171" style="enable-background:new 0 0 512.171 512.171;" xml:space="preserve">
+            <g>
+            <g>
+              <path class="animacion-flecha" d="M509.035,248.212l-213.504-212.8c-3.051-3.029-7.595-3.904-11.627-2.304c-3.989,1.664-6.571,5.547-6.571,9.856v117.333
+                    H10.667C4.779,160.298,0,165.076,0,170.964v170.667c0,5.888,4.779,10.667,10.667,10.667h266.667v116.885
+                    c0,4.309,2.603,8.192,6.592,9.856c1.323,0.555,2.709,0.811,4.075,0.811c2.773,0,5.504-1.088,7.552-3.115l213.504-213.419
+                    c2.005-2.005,3.115-4.715,3.115-7.552C512.171,252.927,511.04,250.218,509.035,248.212z"/>
+            </g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+          </svg>
+                   
+        </div>
+      </div>
+            </div>
+          </div>
+      </div>
 
-    <div class="col-12 col-xs-6 col-md-9 col-lg-9">
-      <a href="película1.html">
-        <p class="flecha__p--tamaño font-weight-bold">RECOMENADA DE LA SEMANA</p>
-      </a>
-    </div>
+          <div class="col-12 col-xs-6 col-md-9 col-lg-9">
+            <a href="película1.html">
+              <p class="flecha__p--tamaño font-weight-bold">RECOMENADA DE LA SEMANA</p>
+            </a>
+          </div>
    
   </div> 
       </div>
     </div>
-    <div class="fondo-titulo">
-      <h1>Inicio:</h1>
-    </div>
+    
     <h2 class="h1-center">Cártelera</h2>
      <div class="padding">
     <div class="container-fluid">
@@ -188,28 +186,28 @@ viewBox="0 0 512.171 512.171" style="enable-background:new 0 0 512.171 512.171;"
           
         
         <a href="película1.html">
-          <img class="img-size" src="public/multimedia/pelicula2.jpg" alt="pelicula1" />
+          <img class="img-size" src="https://images-na.ssl-images-amazon.com/images/I/81ai6zx6eXL._AC_SY679_.jpg" alt="pelicula1" />
 
-          <h1>Película 1</h1>
+          <h1>Avengers: Endgame</h1>
         </a>
         <ul>
-          <li>Puntuación:</li>
-          <li>Género:</li>
+          <li>Puntuación:8.5</li>
+          <li>Género: Acción/Aventura</li>
           <li>Duración:</li>
         </ul>
 
         <a href="película1.html">
           <input type="submit" value="Ver Horarios" />
         </a>
-        <h1>Próximamente</h1>
+        <h1>Tennet</h1>
 
-        <img class="img-size" src="public/multimedia/pelicula2.jpg" alt="Porximamente1" />
+        <img class="img-size" src="https://images-na.ssl-images-amazon.com/images/I/51acC5xSLZL._AC_.jpg" alt="Porximamente1" />
 
         
 
         <ul>
           <li>Fecha de estreno:</li>
-          <li>Género:</li>
+          <li>Género:Acción/Aventura</li>
           <li>Duración:</li>
         </ul>
 
@@ -218,13 +216,13 @@ viewBox="0 0 512.171 512.171" style="enable-background:new 0 0 512.171 512.171;"
       <div class=" color-colum col-12 col-md-6 col-lg-6 ">
       <div>
         <a href="película2.html">
-          <img class="img-size" src="public/multimedia/pelicula2.jpg" alt="pelicula2" />
+          <img class="img-size" src="https://vignette.wikia.nocookie.net/studioghibli/images/e/e2/Se_levanta_el_viento.jpg/revision/latest/scale-to-width-down/340?cb=20200412012459&path-prefix=es" alt="pelicula2" />
 
-          <h1>Película 2</h1>
+          <h1>Se Levanta el Viento</h1>
         </a>
         <ul>
-          <li>Puntuación:</li>
-          <li>Género:</li>
+          <li>Puntuación: 9.5</li>
+          <li>Género:Drama/Animación</li>
           <li>Duración:</li>
         </ul>
 
@@ -232,46 +230,66 @@ viewBox="0 0 512.171 512.171" style="enable-background:new 0 0 512.171 512.171;"
           <input type="submit" value="Ver Horarios" />
         </a>
       </div>
-      <h1>Próximamente2</h1>
-        <img class="img-size" src="public/multimedia/pelicula2.jpg" alt="Proximamente2" />
+      <h1>Mujer Maravilla: 1984</h1>
+        <img class="img-size" src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/03/13/15841258835852.jpg" alt="Proximamente2" />
 
         
 
         <ul>
           <li>Fecha de estreno:</li>
-          <li>Género:</li>
+          <li>Género: Acción/Aventura</li>
           <li>Duración:</li>
         </ul>
       
-
-      
-        <h1>El Cine</h1>
-
-        <img class="img-size" src="public/multimedia/saladecine.jpg" alt="SalaDeCine" />
-        <ul>
-          <a href="elcine.html">
-            <li>Nuestra Historia</li>
-          </a>
-          <a href="galeria.html">
-            <li>Galería de Fotos</li>
-          </a>
-          <a href="candy.html">
-            <li>Puesto de Comida</li>
-          </a>
-        </ul>
+        
       </div>
     </div>
     </div>
+      <h2>Galería de fotos</h2>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" style=" height: 80vh">
+          <img src="public/multimedia/slider-1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" style=" height: 80vh">
+          <img src="public/multimedia/slider-2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" style=" height: 80vh">
+          <img src="public/multimedia/slider-3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+     
+      <div >
+    <ul class="lista-inferior">
+      <a href="elcine.html">
+        <li>Nuestra Historia</li>
+      </a>
+      
+      <a href="candy.html">
+        <li>Puesto de Comida</li>
+      </a>
+    </ul>
+  </div>
 </div>
-    
+   
 
     <footer>
       <section class="ft-main">
     
         <div class="ft-main-item">
           <h2 class="ft-title">Mapa</h2>
+          <iframe class="mapa-footer" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d819356.1725388578!2d-57.31085944389692!3d-36.65983071730908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c720dc31b76dd%3A0x88d8804e41b8034b!2sPartido%20de%20La%20Costa%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1599514103703!5m2!1ses-419!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           <ul>
-            <li><a href="#">Calle y Altura</a></li>
+            <li>Calle y Altura</li>
           </ul>
         </div>
         <div class="ft-main-item">
@@ -298,8 +316,9 @@ viewBox="0 0 512.171 512.171" style="enable-background:new 0 0 512.171 512.171;"
             </ul>
            
           </div>
-        
+         
         
       </section>
-  </body>
+    </body>
+   
 </html>
